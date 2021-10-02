@@ -57,9 +57,9 @@ const BasicForm = () => {
             onChange={firstNameChangeHandler}
             onBlur={firstNameBlurHandler}
           />
-          <p className='error-text'>
-            {firstNameHasError && 'Please enter a valid first name.'}
-          </p>
+                <p className='error-text'>
+          {firstNameHasError && 'Please enter a valid first name.'}
+        </p>
         </div>
 
         <div className={`form-control ${lastNameHasError && 'invalid'}`}>
@@ -71,10 +71,10 @@ const BasicForm = () => {
             onChange={lastNameChangeHandler}
             onBlur={lastNameBlurHandler}
           />
-          <p className='error-text'>
-            {lastNameHasError && 'Please enter a valid last name.'}
-          </p>
-        </div>
+              <p className='error-text'>
+          {lastNameHasError && 'Please enter a valid last name.'}
+        </p>
+      </div>
       </div>
 
       <div className={`form-control ${emailHasError && 'invalid'}`}>
